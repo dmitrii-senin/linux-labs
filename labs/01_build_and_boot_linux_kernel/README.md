@@ -180,6 +180,18 @@ qemu-system-x86_64 \
 You should get the busybox interactive shell after the successful kernel boot.
 To end the QEMU session use `Ctrl-a x`.
 
+## TODOs
+
+1. Explain kbuild system and kernel configuration
+    * config option types
+    * how to create new config option
+    * how to check active config options in current kernel
+    * how to use from Makefile
+    * how to use from source code
+
+1. Build kernel for embedded systems (RaspberryPi, QEMU arm).
+
+
 ## Troubleshooting
 
 ### `zsh: bad pattern #`
